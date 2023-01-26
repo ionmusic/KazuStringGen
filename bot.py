@@ -30,4 +30,4 @@ if __name__ == "__main__":
     print(f"@{uname} is now running!")
     idle()
     app.stop()
-    print("Bot stopped. Alvida!")
+    print("Bot berhenti. Dadaaaahhh!")
