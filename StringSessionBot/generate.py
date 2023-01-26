@@ -13,7 +13,7 @@ from pyrogram.errors import (
     SessionPasswordNeeded,
     PasswordHashInvalid
 )
-from pyrogram1.errors import (
+from pyrogram.errors import (
     ApiIdInvalid as ApiIdInvalid1,
     PhoneNumberInvalid as PhoneNumberInvalid1,
     PhoneCodeInvalid as PhoneCodeInvalid1,
@@ -34,7 +34,7 @@ from telethon.errors import (
 ask_ques = "Please choose the python library you want to generate string session for"
 buttons_ques = [
     [
-        InlineKeyboardButton("Pyrogram", callback_data="pyrogram1"),
+        InlineKeyboardButton("Pyrogram", callback_data="pyrogram"),
         InlineKeyboardButton("Telethon", callback_data="telethon"),
     ],
     [
