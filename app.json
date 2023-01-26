@@ -14,7 +14,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "eco"
+      "size": "basic"
     }
   },
   "addons": [
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/ArmanGG01/karstring",
+  "repository": "https://github.com/ionmusic/KazuStringGen",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
