@@ -20,10 +20,10 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"𝙺𝙰𝚄 𝙹𝙾𝙸𝙽 𝙳𝚄𝙻𝚄 [GROUP KU]({link}) 𝚄𝙽𝚃𝚄𝙺 𝙼𝙰𝙺𝙴𝙺 𝙱𝙾𝚃 𝙺𝚄. 𝙰𝙱𝙸𝚂 𝙹𝙾𝙸𝙽 𝙱𝙰𝚁𝚄 𝙲𝙾𝙱𝙰𝙺 𝙻𝙰𝙶𝙸 /start",
+                    f"𝙹𝙾𝙸𝙽 𝙺𝙴 𝙶𝚁𝚄𝙿 𝙳𝚄𝙻𝚄 [GROUP]({link}) 𝚄𝙽𝚃𝚄𝙺 𝙼𝙴𝙽𝙶𝙶𝚄𝙽𝙰𝙺𝙰𝙽 𝙱𝙾𝚃 𝙸𝙽𝙸. 𝚂𝙴𝚃𝙴𝙻𝙰𝙷 𝙸𝚃𝚄 𝚂𝚃𝙰𝚁𝚃 𝙺𝙴𝙼𝙱𝙰𝙻𝙸 /start",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ​", url=link)]
+                        [InlineKeyboardButton("ᴋᴀᴢᴜ sᴜᴘᴘᴏʀᴛ​", url=link)]
                     ])
                 )
                 await msg.stop_propagation()
